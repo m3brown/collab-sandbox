@@ -1,6 +1,9 @@
 collab-sandbox
 ==============
 
+A vagrant/puppet wrapper to deploy a simple instance of the [Collab](http://github.com/cfpb/collab) Django application
+
+
 Installation instructions
 
 1) Download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html)
