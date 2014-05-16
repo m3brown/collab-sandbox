@@ -1,7 +1,7 @@
 ---
 classes:
  - collab
- - dev-setup
+ - dev_setup
 
 #gitconfig_email: "john.doe@example.com"
 #gitconfig_name: "John Doe"  
