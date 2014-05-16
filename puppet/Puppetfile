@@ -1,0 +1,8 @@
+forge "http://forge.puppetlabs.com"
+
+mod "example42/yum"
+mod "jfryman/nginx",
+    :git => "git://github.com/jfryman/puppet-nginx.git"
+mod "puppetlabs/mysql"
+mod "proletaryo/supervisor"
+mod "puppetlabs/vcsrepo"

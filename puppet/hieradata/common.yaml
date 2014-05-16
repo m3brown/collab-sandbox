@@ -1,0 +1,18 @@
+---
+classes:
+ - collab
+ - dev-setup
+
+gitconfig_email: "john.doe@example.com"
+gitconfig_name: "John Doe"  
+
+collab_apps:
+  'staff_directory':
+    repo_name: "collab-staff-directory"
+    repo_origin: "cfpb"
+  'news':
+    repo_name: "collab-news"
+    repo_origin: "cfpb"
+  'form_builder':
+    repo_name: "collab-form-builder"
+    repo_origin: "cfpb"

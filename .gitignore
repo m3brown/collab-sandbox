@@ -1,0 +1,11 @@
+collab
+collab-*
+.vagrant
+
+### files maintained by librarian-puppet
+puppet/modules
+puppet/Puppetfile.lock
+puppet/etckeeper-commit-post
+puppet/etckeeper-commit-pre
+puppet/.librarian
+puppet/.tmp
