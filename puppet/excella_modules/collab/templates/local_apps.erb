@@ -1,0 +1,9 @@
+from collab.settings import INSTALLED_APPS
+
+# Add local application to this file
+#
+# i.e.:
+# INSTALLED_APPS += ( 'my_app', )
+<% @collab_apps.each_pair do |key, value_hash| %>
+INSTALLED_APPS += ( '<%= key %>', )
+<% end %>

@@ -1,5 +1,7 @@
-collab
-collab-*
+collab/
+collab-*/
+!puppet/**/collab/
+!puppet/**/collab-*/
 .vagrant
 
 ### files maintained by librarian-puppet
