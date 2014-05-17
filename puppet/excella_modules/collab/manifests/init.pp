@@ -5,6 +5,7 @@ class collab {
 
   $collab_apps = hiera_hash("collab_apps", {})
   $collab_repo_owner = hiera("collab_repo_owner", 'cfpb')
+  $collab_repo_branch = hiera("collab_repo_branch", 'master')
 
   package { python: }
   -> package { git: }
@@ -18,7 +19,8 @@ class collab {
   vcsrepo { "/www/collab":
     ensure => present,
     provider => git,
-    source => "git://github.com/${collab_repo_owner}/collab.git"
+    source => "git://github.com/${collab_repo_owner}/collab.git",
+    revision => "${collab_repo_branch}",
   }
 
   unless empty($collab_apps) {
